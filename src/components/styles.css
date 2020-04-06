@@ -1,0 +1,35 @@
+#AppContainer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#AppContainer h1 {
+  width: 100%;
+  text-align: left;
+  margin: 20px 0 50px 50px;
+}
+
+#Dashboard {
+  width: 80%;
+}
+
+#cardContainer {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+
+#notificationLogContainer h2 {
+  margin: 20px 0;
+  text-align: left;
+}
+
+#logList {
+  list-style-type: none;
+  text-align: left;
+}
+
+#logList li {
+  margin: 3px;
+}

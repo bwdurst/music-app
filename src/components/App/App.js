@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import AppContainer from '../AppContainer'
 import { makeStyles } from '@material-ui/core/styles';
 

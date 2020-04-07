@@ -25,11 +25,8 @@ export default function Dashboard() {
   };
 
   const handleVolumeChange = (e) => {
-    console.log(e)
     if (e.target.attributes[8]) {
-
       let currVolume = e.target.attributes[8].value;
-
       if (state.volumeTooLoud === false && currVolume > 80) {
         console.log(state.volumeTooLoud)
         setState({

@@ -46,7 +46,7 @@ export default function Dashboard() {
   }
 
   const handleQualityChange = (quality) => {
-    if (quality === 1) {
+    if (quality === 1 && state.soundQuality !== 1) {
       setState({
         ...state,
         soundQuality: quality,
